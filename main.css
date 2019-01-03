@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+
+}
+
+.flex-container {
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.board-container {
+    height: 100%;
+    width: 100%;
+}
+
+.board {
+    width: 624px;
+    flex-wrap: wrap;
+}
+
+.squares {
+    width: 200px;
+    height: 200px;
+    border: 4px solid blue; 
+}
+
+.squares:hover {
+    background-color: green;
+}
